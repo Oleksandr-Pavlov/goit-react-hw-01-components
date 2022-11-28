@@ -1,0 +1,35 @@
+.profile {
+  border-radius: 8px;
+  border: 1px solid grey;
+  width: 250px;
+  text-align: center;
+  overflow: hidden;
+  height: fit-content;
+}
+
+.decsr {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  
+}
+
+.name, .quantity {
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: bisque;
+  padding: 8px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+

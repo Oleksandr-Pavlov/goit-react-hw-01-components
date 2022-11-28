@@ -1,0 +1,25 @@
+.statWrapper {
+  border: 1px solid green;
+  border-radius: 8px;
+  /* width: 250px; */
+  overflow: hidden;
+  height: fit-content;
+}
+
+.title {
+  text-align: center;
+  padding: 8px;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+}

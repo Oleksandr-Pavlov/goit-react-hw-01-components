@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 export function Statistics({ stat: { label, percentage } }) {
   return (
     <>
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+      <span>{label}</span>
+      <span>{percentage}%</span>
     </>
   );
 }
